@@ -43,10 +43,10 @@
 	<false/>
 	<!--Image Picker-->
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Need to take and upload images</string>
+	<string>Permission to access your pictures</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Need to take and upload images</string>
+	<string>Permission to access device camera</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Need to record and upload videos</string>
+	<string>Permission to access your device microphone</string>
 </dict>
 </plist>
