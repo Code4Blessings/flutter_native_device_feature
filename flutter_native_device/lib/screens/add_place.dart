@@ -6,7 +6,7 @@ import '../providers/great_places.dart';
 
 class AddPlaceScreen extends StatefulWidget {
   static const routeName = '/add-place';
-
+  
   @override
   _AddPlaceScreenState createState() => _AddPlaceScreenState();
 }
@@ -24,7 +24,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
       return;
     }
     Provider.of<GreatPlaces>(context, listen: false)
-        .addPlace(_titleController.text, _pickedImage);
+      .addPlace(_titleController.text, _pickedImage);
     Navigator.of(context).pop();
   }
 

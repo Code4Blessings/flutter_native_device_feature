@@ -12,10 +12,11 @@ class GreatPlaces with ChangeNotifier {
   void addPlace(String pickedTitle, File pickedImage) {
     final newPlace = Place(
         id: DateTime.now().toString(),
+        image: pickedImage,
         title: pickedTitle,
         location: null,
-        image: pickedImage);
-    items.add(newPlace);
+    );
+    _items.add(newPlace);
     notifyListeners();
   }
 }
